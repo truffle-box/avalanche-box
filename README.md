@@ -1,6 +1,6 @@
 # Avalanche Truffle Box
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app, using the Avalanche C-Chain.
+This box comes with everything you need to start using Truffle to write, compile, test, deploy, and interact with your smart contracts from a React app, using the Avalanche C-Chain.
 
 Avalanche is an open-source platform for building decentralized applications (Dapps) in one interoperable, highly scalable ecosystem.  The Avalanche C-Chain is an implementation of the Ethereum Virtual Machine (EVM). The C-Chain’s API supports Geth's API and supports the creation and execution of smart contracts written in Solidity. For more details regarding the Avalanche C-Chain API, see [here](https://docs.avax.network/apis/avalanchego/apis/c-chain).
 
@@ -38,4 +38,4 @@ From there, follow the instructions on the hosted React app. It will walk you th
 
 - __Where can I find more resources?__
 
-  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Webpack](https://webpack.js.org). Either one would be a great place to start!
+  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Webpack](https://webpack.js.org). Either one would be a great place to start! If you'd like more information about the Avalanche ecosystem, check out [their documentation](https://docs.avax.network/).
