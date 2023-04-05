@@ -22,11 +22,12 @@ function Setup() {
         </p>
         <p>
           Please note: while we suggest using Ganache for local testing, Ganache
-          does not provide a fork of the Avalanche C-Chain. Thus, there are
+          does not provide a fork of the Avalanche C-Chain. Thus, there
+          are&nbsp;
           <a href="https://docs.avax.network/dapps/launch-your-ethereum-dapp#gotchas-and-things-to-look-out-for">
             some differences
-          </a>{" "}
-          to be aware of, and you should plan to test your completed code
+          </a>
+          &nbsp;to be aware of, and you should plan to test your completed code
           against the Avalanche Fuji Testnet (see below) before deploying to the
           Avalanche Mainnet.
         </p>
@@ -35,7 +36,7 @@ function Setup() {
       <details>
         <summary>Avalanche Fuji Testnet and MetaMask</summary>
         <p>
-          Obtain Fuji Testnet AVAX from the
+          Obtain Fuji Testnet AVAX from the&nbsp;
           <a href="https://faucet.avax-test.network/">Avalanche Faucet</a>. Add
           the Fuji Testnet to MetaMask.
         </p>
