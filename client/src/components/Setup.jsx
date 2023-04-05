@@ -86,7 +86,7 @@ function Setup() {
           Please note: Transaction fees are listed as being in "ETH" but for
           deployments to the Avalanche C-Chain, the fees are actually in AVAX.
           Anywhere you see ETH when deploying, remember that the amount is
-          correct but should be denominated in AVAX.{" "}
+          correct but should be denominated in AVAX.
         </p>
       </details>
     </>
