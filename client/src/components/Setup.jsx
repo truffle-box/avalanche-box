@@ -48,8 +48,8 @@ function Setup() {
           mnemonic and your Infura ID for use with this network.
         </p>
         <p>
-          Once your Fuji wallet is funded, you can proceed to deploy your
-          contracts there using Truffle!
+          Once your wallet is funded with Fuji testnet token, you can proceed to
+          deploy your contracts there using Truffle!
         </p>
       </details>
 
@@ -71,8 +71,8 @@ function Setup() {
 
         <h3>Using the Fuji Testnet:</h3>
         <p>
-          After having funded a Fuji wallet, let's compile and deploy our
-          contracts to Fuji.
+          After having funded wallet with Fuji testnet token, let's compile and
+          deploy our contracts to Fuji.
         </p>
         <code>
           {`$ cd truffle\n`}
