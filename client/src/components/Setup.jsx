@@ -1,5 +1,4 @@
 function Setup() {
-
   return (
     <>
       <h2>Preparation</h2>
@@ -13,30 +12,53 @@ function Setup() {
       <details>
         <summary>Ganache and MetaMask</summary>
         <p>
-          Open a terminal and run Ganache, a simulated Ethereum blockchain on your machine.
+          Open a terminal and run Ganache, a simulated Ethereum blockchain on
+          your machine.
         </p>
         <code>$ ganache</code>
-        <p>From the list of generated private keys, import the first one to MetaMask.</p>
-        <p>Please note: while we suggest using Ganache for local testing, Ganache does not provide a fork of the
-          Avalanche C-Chain. Thus, there are<a href="https://docs.avax.network/dapps/launch-your-ethereum-dapp#gotchas-and-things-to-look-out-for">some differences</a> to be aware of, and you should plan to test your completed code against the Avalanche Fuji Testnet (see below) before deploying to the Avalanche Mainnet.
+        <p>
+          From the list of generated private keys, import the first one to
+          MetaMask.
+        </p>
+        <p>
+          Please note: while we suggest using Ganache for local testing, Ganache
+          does not provide a fork of the Avalanche C-Chain. Thus, there
+          are&nbsp;
+          <a href="https://docs.avax.network/dapps/launch-your-ethereum-dapp#gotchas-and-things-to-look-out-for">
+            some differences
+          </a>
+          &nbsp;to be aware of, and you should plan to test your completed code
+          against the Avalanche Fuji Testnet (see below) before deploying to the
+          Avalanche Mainnet.
         </p>
       </details>
 
       <details>
         <summary>Avalanche Fuji Testnet and MetaMask</summary>
         <p>
-          Obtain Fuji Testnet AVAX from the<a href="https://faucet.avax-test.network/">Avalanche Faucet</a>. Add the Fuji Testnet to MetaMask.
+          Obtain Fuji Testnet AVAX from the&nbsp;
+          <a href="https://faucet.avax-test.network/">Avalanche Faucet</a>. Add
+          the Fuji Testnet to MetaMask.
         </p>
-        <p>The `fuji_testnet` has been added to the `truffle-config.js` file for you. You will need to create a `.env` file to store your mnemonic and your Infura ID for use with this network.</p>
-        <p>Once your Fuji wallet is funded, you can proceed to deploy your contracts there using Truffle!</p>
+        <p>
+          The <span className="code">fuji_testnet</span> has been added to
+          the&nbsp;
+          <span className="code">truffle-config.js</span> file for you. You will
+          need to create a <span className="code">.env</span> file to store your
+          mnemonic and your Infura ID for use with this network.
+        </p>
+        <p>
+          Once your wallet is funded with Fuji testnet token, you can proceed to
+          deploy your contracts there using Truffle!
+        </p>
       </details>
 
       <details>
         <summary>Truffle</summary>
         <h3>Using Ganache:</h3>
         <p>
-          Keep Ganache running and open another terminal. Let's compile and deploy our
-          contracts to Ganache.
+          Keep Ganache running and open another terminal. Let's compile and
+          deploy our contracts to Ganache.
         </p>
         <code>
           {`$ cd truffle\n`}
@@ -49,7 +71,8 @@ function Setup() {
 
         <h3>Using the Fuji Testnet:</h3>
         <p>
-          After having funded a Fuji wallet, let's compile and deploy our contracts to Fuji.
+          After having funded wallet with Fuji testnet token, let's compile and
+          deploy our contracts to Fuji.
         </p>
         <code>
           {`$ cd truffle\n`}
@@ -59,8 +82,12 @@ function Setup() {
             `truffle/truffle-config.js`.
           </span>
         </code>
-        <p>Please note: Transaction fees are listed as being in "ETH" but for deployments to the Avalanche C-Chain, the fees are actually in AVAX.
-          Anywhere you see ETH when deploying, remember that the amount is correct but should be denominated in AVAX. </p>
+        <p>
+          Please note: Transaction fees are listed as being in "ETH" but for
+          deployments to the Avalanche C-Chain, the fees are actually in AVAX.
+          Anywhere you see ETH when deploying, remember that the amount is
+          correct but should be denominated in AVAX.
+        </p>
       </details>
     </>
   );
