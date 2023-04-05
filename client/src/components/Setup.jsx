@@ -41,9 +41,11 @@ function Setup() {
           the Fuji Testnet to MetaMask.
         </p>
         <p>
-          The `fuji_testnet` has been added to the `truffle-config.js` file for
-          you. You will need to create a `.env` file to store your mnemonic and
-          your Infura ID for use with this network.
+          The <span className="code">fuji_testnet</span> has been added to
+          the&nbsp;
+          <span className="code">truffle-config.js</span> file for you. You will
+          need to create a <span className="code">.env</span> file to store your
+          mnemonic and your Infura ID for use with this network.
         </p>
         <p>
           Once your Fuji wallet is funded, you can proceed to deploy your
