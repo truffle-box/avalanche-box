@@ -1,17 +1,13 @@
 {
-  "ignore": [
-    ".github",
-    ".prettierrc.json"
-  ],
+  "ignore": [".prettierrc.json"],
   "commands": {
-    "Contracts: Compile": "cd truffle && truffle compile",
-    "Contracts: Test": "cd truffle && truffle test",
-    "Contracts: Migrate": "cd truffle && truffle migrate",
-    "Dapp: Run dev server": "cd client && npm start",
-    "Dapp: Test": "cd client && npm test",
-    "Dapp: Build for production": "cd client && npm run build"
+    "Truffle: Compile": "cd truffle && truffle compile",
+    "Truffle: Test": "cd truffle && truffle test",
+    "Truffle: Migrate": "cd truffle && truffle migrate",
+    "Next.js: Dev server": "cd client && npm run dev",
+    "Next.js: Build": "cd client && npm run build"
   },
   "hooks": {
-    "post-unpack": "cd client && npm ci && cd ../truffle && npm ci"
+    "post-unpack": "cd client && npm i && cd ../truffle && npm i"
   }
 }
